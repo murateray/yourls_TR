@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2014-01-11 11:50+0100\n"
-"PO-Revision-Date: 2017-11-02 18:22+0300\n"
+"PO-Revision-Date: 2017-11-02 18:58+0300\n"
 "Language-Team: Murat Eray KORKMAZ - www.murateray.com\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -140,7 +140,7 @@ msgstr[1] "%s tıklanma"
 
 #: yourls-infos.php:426
 msgid "No traffic yet. Get some clicks first!"
-msgstr "Henüz trafik yok. Öncelikle tıklanma elde ediniz."
+msgstr "Henüz trafik yok. Öncelikle tıklanma elde ediniz!"
 
 #: yourls-infos.php:441
 msgid "Top 5 countries"
@@ -195,7 +195,7 @@ msgstr[1] "<strong>%s</strong> tıklanma"
 
 #: yourls-infos.php:521
 msgid "Referrer traffic:"
-msgstr "Ziyaretçi gönderenler"
+msgstr "Ziyaretçi gönderenler:"
 
 #: yourls-infos.php:530
 msgid "No referrer data."
@@ -226,7 +226,7 @@ msgstr "IP Adresi"
 #: admin/index.php:50
 #, php-format
 msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
-msgstr ""
+msgstr "<strong>%1$s</strong>, <strong>%2$s</strong> içerisinde aranıyor."
 
 #: admin/index.php:101 includes/functions-html.php:223
 #: includes/functions-html.php:628
@@ -241,11 +241,11 @@ msgstr "Tıklama"
 #: admin/index.php:187 admin/index.php:198 admin/index.php:209
 #, php-format
 msgid "Short URL created, but could not redirect to %s !"
-msgstr ""
+msgstr "Kısa URL oluşturuldu ana %s adresine yönlendirilemiyor!"
 
 #: admin/index.php:219
 msgid "Unknown \"Share\" bookmarklet"
-msgstr ""
+msgstr "Bilinmeyen \"Paylaş\" Yer İşareti"
 
 #: admin/index.php:272
 #, php-format
@@ -261,8 +261,8 @@ msgstr ""
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "artıyor <strong>1</strong> tıklama"
+msgstr[1] "artıyor <strong>%s</strong> tıklama"
 
 #: admin/index.php:277
 #, php-format
@@ -281,6 +281,8 @@ msgstr "URL Yok"
 #, php-format
 msgid "%s version is too old. Ask your server admin for an upgrade."
 msgstr ""
+"%s sürümü çok eski. Lütfen sunucu yöneticinizden yükseltme yapmasını talep "
+"ediniz."
 
 #: admin/install.php:24
 msgid "YOURLS already installed."
@@ -288,13 +290,16 @@ msgstr "YOURLS zaten kurulmuş."
 
 #: admin/install.php:35
 msgid "File <tt>.htaccess</tt> successfully created/updated."
-msgstr ""
+msgstr "<tt>.htaccess</tt> dosyası başarıyla oluşturuldu/güncellendi."
 
 #: admin/install.php:37
 msgid ""
 "Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
 "have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
 msgstr ""
+"YOURLS kaynak dizinindeki <tt>.htaccess</tt> dosyasına yazılamadı. Lütfen bu "
+"işlemi manuel olarak yapınız. Detaylı bilgi için <a href=\"http://yourls.org/"
+"htaccess\">buraya tıklayınız</a>."
 
 #: admin/install.php:50 admin/install.php:71
 msgid "Install YOURLS"
@@ -310,15 +315,15 @@ msgstr "Desteklenmeyen işlem"
 
 #: admin/plugins.php:42
 msgid "No plugin specified, or not a valid plugin"
-msgstr ""
+msgstr "Eklenti belirtilmedi veya geçerli bir eklenti değil"
 
 #: admin/plugins.php:51
 msgid "Plugin has been activated"
-msgstr ""
+msgstr "Eklenti aktifleştirildi"
 
 #: admin/plugins.php:53
 msgid "Plugin has been deactivated"
-msgstr ""
+msgstr "Eklenti devre dışı bırakıldı"
 
 #: admin/plugins.php:58 includes/functions-html.php:745
 msgid "Manage Plugins"
@@ -407,11 +412,11 @@ msgstr ""
 
 #: admin/tools.php:6
 msgid "Cool YOURLS Tools"
-msgstr ""
+msgstr "Heyecan Verici YOURLS Araçları"
 
 #: admin/tools.php:13
 msgid "Bookmarklets"
-msgstr ""
+msgstr "Yer İşaretlemeleri"
 
 #: admin/tools.php:15
 msgid ""
@@ -597,6 +602,8 @@ msgid ""
 "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
 "requests. Example:"
 msgstr ""
+"Artık <tt>imza</tt> ve <tt>zamandamgası</tt> parametrelerini API "
+"isteklerinizde kullanabilirsiniz. Örnek:"
 
 #: admin/tools.php:124
 msgid "Actual values:"
@@ -605,12 +612,12 @@ msgstr "Gerçek değerler:"
 #: admin/tools.php:126
 #, php-format
 msgid "This URL would be valid for only %s seconds"
-msgstr ""
+msgstr "Bu bağlantı yalnızca %s saniye boyunca aktif olacaktır"
 
 #: admin/tools.php:130
 #, php-format
 msgid "See the <a href=\"%s\">API documentation</a> for more"
-msgstr ""
+msgstr "Daha fazlası için <a href=\"%s\">API dokümantasyonuna</a> göz atın"
 
 #: admin/upgrade.php:9 admin/upgrade.php:13
 msgid "Upgrade YOURLS"
@@ -619,39 +626,47 @@ msgstr "YOURLS'u Yükselt"
 #: admin/upgrade.php:18
 #, php-format
 msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
-msgstr ""
+msgstr "Yükseltmeye gerek yok. Dönün ve <a href=\"%s\">işinize devam edin</a>!"
 
 #: admin/upgrade.php:51
 msgid "Your current installation needs to be upgraded."
-msgstr ""
+msgstr "Mevcut kurulumunuzun yükseltilmesi gerekmektedir."
 
 #: admin/upgrade.php:52
 msgid ""
 "Please, pretty please, it is recommended that you <strong>backup</strong> "
 "your database<br/>(you should do this regularly anyway)"
 msgstr ""
+"Lütfen! Lütfen! Lütfen! Düzenli olarak  <strong>yedek almayı</strong> lütfen "
+"unutmayınız.<br/>Ve bunu düzenli olarak tekrarlamayı da!"
 
 #: admin/upgrade.php:53
 msgid ""
 "Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
 "em> happen, right? ;)"
 msgstr ""
+"Herhangi kötü bir durum <em>şimdilik </em> oluşmadı ancak bu <em>hiç bir "
+"zaman oluşmayacağı</em> anlamına gelmez, di mi? ;)"
 
 #: admin/upgrade.php:54
 msgid ""
 "On every step, if <span class='error'>something goes wrong</span>, you'll "
 "see a message and hopefully a way to fix."
 msgstr ""
+"Her bir adımda, eğer <span class='error'>bir şeyler yolunda gitmezse</span>, "
+"bir mesaj göreceksiniz ve umarız bu sorununuza yardımcı olacak."
 
 #: admin/upgrade.php:55
 msgid ""
 "If everything goes too fast and you cannot read, <span class=\"success"
 "\">good for you</span>, let it go :)"
 msgstr ""
+"Eğer her şey çok hızlı gelişir ve bunu okuyamazsanız, <span class=\"success"
+"\">ne mutlu size</span>, devam edin :)"
 
 #: admin/upgrade.php:56
 msgid "Once you are ready, press \"Upgrade\" !"
-msgstr ""
+msgstr "Hazır olduğunuzda \"Yükselt\"e basın!"
 
 #: admin/upgrade.php:65
 msgid "Upgrade"
@@ -664,12 +679,12 @@ msgstr "Kurulumuzun şu an güncel! "
 #: admin/upgrade.php:78
 #, php-format
 msgid "Go back to <a href=\"%s\">the admin interface</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Yönetici Paneline</a> dönün"
 
 #: includes/auth.php:53
 #, php-format
 msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
-msgstr ""
+msgstr "Şifreniz, otomatik olarak şifrelenemedi. Oluşan hataHata: \"%s\"."
 
 #: includes/auth.php:55
 #, php-format
@@ -680,17 +695,22 @@ msgstr "<a href=\"%s\">Yardım al</a>."
 #, php-format
 msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
 msgstr ""
+"Bu mesajı bir haftalığına görmezden gelmek için <a href=\"%s\">buraya "
+"tıklayınız</a>."
 
 #: includes/class-mysql.php:39
 msgid ""
 "YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No extension "
 "found. Check your server config, or contact your host."
 msgstr ""
+"YOURLS mysql, mysqli veya pdo_mysql PHP eklentisine ihtiyaç duymaktadır. "
+"Eklenti bulunamadı. Lütfen sunucu ayarlarınızı kontrol ediniz veya "
+"barındırma hizmetinizle irtibata geçiniz."
 
 #: includes/class-mysql.php:40 includes/functions-install.php:16
 #: includes/functions.php:438 includes/functions.php:450
 msgid "Fatal error"
-msgstr ""
+msgstr "Kritik hata"
 
 #: includes/functions-auth.php:26
 msgid "Logged out successfully"
@@ -714,7 +734,7 @@ msgstr[1] "%s sorgu"
 #: includes/functions-html.php:147
 #, php-format
 msgid "Powered by %s"
-msgstr ""
+msgstr "%s ile sunulmaktadır"
 
 #: includes/functions-html.php:175
 msgid "Enter the URL"
@@ -741,7 +761,7 @@ msgstr "IP"
 #: includes/functions-html.php:216
 #, php-format
 msgid "Search for %1$s in %2$s"
-msgstr ""
+msgstr "%1$s'i %2$s içinde ara"
 
 #: includes/functions-html.php:230
 msgid "Ascending"
@@ -755,7 +775,7 @@ msgstr "Azalan"
 #: includes/functions-html.php:235
 #, php-format
 msgid "Order by %1$s %2$s"
-msgstr ""
+msgstr "Sırala: %1$s %2$s"
 
 #. //translators: "Show <text field> rows"
 #: includes/functions-html.php:240
@@ -775,7 +795,7 @@ msgstr "daha az"
 #: includes/functions-html.php:251
 #, php-format
 msgid "Show links with %1$s than %2$s clicks"
-msgstr ""
+msgstr "Bağlantıları %2$s tıklamaları yerine %1$s ile göster"
 
 #: includes/functions-html.php:256
 msgid "before"
@@ -793,7 +813,7 @@ msgstr "arasında"
 #: includes/functions-html.php:265
 #, php-format
 msgid "Show links created %1$s %2$s %3$s %4$s"
-msgstr ""
+msgstr "Oluşturulan bağlantıları göster: %1$s %2$s %3$s %4$s"
 
 #: includes/functions-html.php:269
 msgid "Search"
@@ -881,7 +901,7 @@ msgstr "Sil"
 
 #: includes/functions-html.php:541
 msgid "Not a common link"
-msgstr ""
+msgstr "Bilindik bir bağlantı değil"
 
 #: includes/functions-html.php:627
 msgid "Original URL"
@@ -939,37 +959,37 @@ msgstr "Kapat"
 #: includes/functions-html.php:889
 #, php-format
 msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
-msgstr ""
+msgstr "<a href=\"%s\">YOURLS sürüm %s</a> çıktı. Lütfen güncelleyiniz!"
 
 #: includes/functions-install.php:16 includes/functions.php:438
 msgid "Incorrect DB config, or could not connect to DB"
-msgstr ""
+msgstr "Hatalı veritabanı ayarı veya veritabanına bağlanamadı"
 
 #: includes/functions-install.php:241
 #, php-format
 msgid "Table '%s' created."
-msgstr ""
+msgstr "'%s' tablosu oluşturuldu."
 
 #: includes/functions-install.php:243
 #, php-format
 msgid "Error creating table '%s'."
-msgstr ""
+msgstr "'%s' tablosu yaratılırken hata oluştu."
 
 #: includes/functions-install.php:249
 msgid "Could not initialize options"
-msgstr ""
+msgstr "Ayarlar başlatılamadı"
 
 #: includes/functions-install.php:253
 msgid "Could not insert sample short URLs"
-msgstr ""
+msgstr "Örnek kısa URL'ler içe aktarılamadı"
 
 #: includes/functions-install.php:257
 msgid "YOURLS tables successfully created."
-msgstr ""
+msgstr "YOURLS tabloları başarıyla oluşturuldu."
 
 #: includes/functions-install.php:259
 msgid "Error creating YOURLS tables."
-msgstr ""
+msgstr "YOURLS tabloları yaratılırken hata oluştu."
 
 #. //translators: weekday
 #: includes/functions-l10n.php:795 includes/functions-l10n.php:805
@@ -1237,8 +1257,8 @@ msgstr ""
 #: includes/functions-plugins.php:387
 msgid "Could not find and deactivated plugin :"
 msgid_plural "Could not find and deactivated plugins :"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bulunamayan ve devre dışı bırakılamayan eklenti :"
+msgstr[1] "Bulunamayan ve devre dışı bırakılamayan eklentleri :"
 
 #: includes/functions-plugins.php:425
 msgid "Not a valid plugin file"
@@ -1252,6 +1272,7 @@ msgstr "Eklenti zaten aktif"
 #, php-format
 msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
 msgstr ""
+"Eklenti beklenmedik bir hataya sebep oldu. Oluşan hata: <br/><pre>%s</pre>"
 
 #: includes/functions-plugins.php:461
 msgid "Plugin not active"
@@ -1262,6 +1283,8 @@ msgid ""
 "This page does not exist. Maybe a plugin you thought was activated is "
 "inactive?"
 msgstr ""
+"Bu sayfa mevcut değil. Belki de bir eklentinin aktif olduğunu sanıyorsunuz "
+"ama değil?"
 
 #: includes/functions-plugins.php:541
 msgid "Invalid link"
@@ -1278,7 +1301,7 @@ msgstr "Girilen URL halihazırda kısa bir URL"
 #: includes/functions.php:247
 #, php-format
 msgid "Short URL %s already exists in database or is reserved"
-msgstr ""
+msgstr "%s kısa URL'si halihazırda oluşturulmuş veya rezerve edilmiş"
 
 #. //translators: eg "http://someurl/ added to DB"
 #: includes/functions.php:253 includes/functions.php:275
@@ -1288,27 +1311,27 @@ msgstr "%s veritabanına eklendi"
 
 #: includes/functions.php:283
 msgid "Error saving url to database"
-msgstr ""
+msgstr "URL veritabanına kayıt edilirken hata oluştu"
 
 #. //translators: eg "http://someurl/ already exists"
 #: includes/functions.php:300
 #, php-format
 msgid "%s already exists in database"
-msgstr ""
+msgstr "%s zaten veritabanında mevcut"
 
 #: includes/functions.php:355
 msgid "Link updated in database"
-msgstr ""
+msgstr "Veritabanındaki bağlantı güncellendi"
 
 #. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
 #: includes/functions.php:358
 #, php-format
 msgid "Error updating %s (Short URL: %s)"
-msgstr ""
+msgstr "%s güncellenirken hata oluştu (Kısa URL: %s)"
 
 #: includes/functions.php:364
 msgid "URL or keyword already exists in database"
-msgstr ""
+msgstr "URL veya anahtar kelime zaten veritabanında mevcut"
 
 #: includes/functions.php:761
 #, php-format
@@ -1316,15 +1339,19 @@ msgid ""
 "if you are not redirected after 10 seconds, please <a href=\"%s\">click "
 "here</a>"
 msgstr ""
+"eğer 10 saniye içinde yönlendirilmezseniz, lütfen <a href=\"%s\">buraya "
+"tıklayınız</a>"
 
 #: includes/functions.php:769
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
-msgstr ""
+msgstr "Lütfen <a href=\"%s\">buraya tıklayınız</a>"
 
 #: includes/functions.php:1394
 msgid "Too many URLs added too fast. Slow down please."
 msgstr ""
+"Kısa zamanda çok fazla sayıda URL eklenmeye çalışıldı. Lütfen biraz "
+"yavaşlayın."
 
 #: includes/functions.php:1394
 msgid "Forbidden"
@@ -1332,7 +1359,7 @@ msgstr "Yasaklı"
 
 #: includes/functions.php:1673
 msgid "Unauthorized action or expired link"
-msgstr ""
+msgstr "Yetkisiz işlem veya süresi dolmuş bağlantı"
 
 #: includes/functions.php:1673
 msgid "Error"
@@ -1340,30 +1367,34 @@ msgstr "Hata"
 
 #: includes/functions.php:2064
 msgid "Service temporarily unavailable"
-msgstr ""
+msgstr "Servis geçici olarak devre dışıdır"
 
 #: includes/functions.php:2065
 msgid "Our service is currently undergoing scheduled maintenance."
-msgstr ""
+msgstr "Servisimiz şu anda planlanmış bakımdadır."
 
 #: includes/functions.php:2066
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
+"İşlem çok uzun sürmeyecektir, sabrınız için teşekkür ederiz. Lütfen "
+"verdiğimiz rahatsızlıktan dolayı kusura bakmayınız"
 
 #: includes/functions.php:2186
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr ""
+"%1$s, sürüm %2$s'den beri <strong>artık kullanılmamaktadır</strong>! Lütfen "
+"bunun yerine sürüm %3$s kullanınız."
 
 #: includes/functions.php:2188
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
 "available."
-msgstr ""
+msgstr "%1$s, sürüm %2$s'den beri <strong>artık kullanılmamaktadır</strong>."
 
 #: user/plugins/sample-toolbar/plugin.php:62
 msgid "day"
