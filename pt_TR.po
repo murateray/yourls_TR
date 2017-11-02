@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2014-01-11 11:50+0100\n"
-"PO-Revision-Date: 2017-11-02 16:47+0300\n"
+"PO-Revision-Date: 2017-11-02 18:22+0300\n"
 "Language-Team: Murat Eray KORKMAZ - www.murateray.com\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,11 +32,11 @@ msgstr "Kısa URL"
 
 #: yourls-infos.php:227
 msgid "Aggregate stats for duplicate short URLs"
-msgstr ""
+msgstr "Aynı kısaltılmış URL'ler için istatistikleri birleştir"
 
 #: yourls-infos.php:229 includes/functions-html.php:464
 msgid "Long URL"
-msgstr "Uzun Bağlantı"
+msgstr "Uzun URL"
 
 #: yourls-infos.php:235 yourls-infos.php:246
 msgid "Traffic statistics"
@@ -44,7 +44,7 @@ msgstr "Trafik İstatistikleri"
 
 #: yourls-infos.php:236 yourls-infos.php:432
 msgid "Traffic location"
-msgstr ""
+msgstr "Ülke İstatistikleri"
 
 #: yourls-infos.php:237 yourls-infos.php:469
 msgid "Traffic sources"
@@ -74,41 +74,41 @@ msgstr "Tüm zamanlar"
 #: yourls-infos.php:309
 #, php-format
 msgid "Number of hits : %s"
-msgstr ""
+msgstr "Toplam Tıklama : %s"
 
 #: yourls-infos.php:332
 msgid "Historical click count"
-msgstr ""
+msgstr "Geçmiş tıklama sayıları"
 
 #: yourls-infos.php:338
 #, php-format
 msgid "about 1 day ago"
 msgid_plural "about %s days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "yaklaşık 1 gün önce"
+msgstr[1] "yaklaşık %s gün önce"
 
 #. //translators: eg Short URL created on March 23rd 1972
 #: yourls-infos.php:341
 #, php-format
 msgid "Short URL created on %s"
-msgstr ""
+msgstr "%s tarihinde Kısa URL oluşturuldu"
 
 #: yourls-infos.php:356 yourls-infos.php:363
 #, php-format
 msgid "%s per day"
-msgstr ""
+msgstr "günde %s"
 
 #: yourls-infos.php:359
 #, php-format
 msgid "%s per hour"
-msgstr ""
+msgstr "Saatte %s"
 
 #: yourls-infos.php:366
 #, php-format
 msgid "%s hit"
 msgid_plural "%s hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s tıklanma"
+msgstr[1] "%s tıklanma"
 
 #: yourls-infos.php:373
 msgid "Best day"
@@ -119,12 +119,12 @@ msgstr "En iyi gün"
 #, php-format
 msgid "<strong>%1$s</strong> hit on %2$s"
 msgid_plural "<strong>%1$s</strong> hits on %2$s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2$s tarihinde <strong>%1$s</strong> tıklanma"
+msgstr[1] "%2$s tarihinde <strong>%1$s</strong> tıklanma"
 
 #: yourls-infos.php:381 yourls-infos.php:443
 msgid "Click for more details"
-msgstr ""
+msgstr "Detaylı bilgi için tıklayınız"
 
 #: yourls-infos.php:387 yourls-infos.php:390
 #, php-format
@@ -135,12 +135,12 @@ msgstr "Yıl %s"
 #, php-format
 msgid "1 hit"
 msgid_plural "%s hits"
-msgstr[0] "1 hit"
-msgstr[1] "%s hit"
+msgstr[0] "1 tıklanma"
+msgstr[1] "%s tıklanma"
 
 #: yourls-infos.php:426
 msgid "No traffic yet. Get some clicks first!"
-msgstr ""
+msgstr "Henüz trafik yok. Öncelikle tıklanma elde ediniz."
 
 #: yourls-infos.php:441
 msgid "Top 5 countries"
@@ -148,15 +148,15 @@ msgstr "En İyi 5 Ülke"
 
 #: yourls-infos.php:454
 msgid "Overall traffic"
-msgstr ""
+msgstr "Ortalama trafik"
 
 #: yourls-infos.php:463
 msgid "No country data."
-msgstr ""
+msgstr "Ülke verisi yok."
 
 #: yourls-infos.php:478
 msgid "Referrer shares"
-msgstr ""
+msgstr "Ziyaretçi Gönderenlerin Oranı"
 
 #: yourls-infos.php:481
 msgid "Others"
@@ -164,42 +164,42 @@ msgstr "Diğerleri"
 
 #: yourls-infos.php:485 yourls-infos.php:518
 msgid "Referrers"
-msgstr ""
+msgstr "Ziyaretçi Gönderenler"
 
 #: yourls-infos.php:492 yourls-infos.php:502
 msgid "(details)"
-msgstr ""
+msgstr "(detaylar)"
 
 #: yourls-infos.php:502
 msgid "Various:"
-msgstr ""
+msgstr "Çeşitli:"
 
 #: yourls-infos.php:516
 msgid "Direct vs Referrer Traffic"
-msgstr ""
+msgstr "Doğrudan vs Başka Sayfalardan Gelenler"
 
 #: yourls-infos.php:518
 msgid "Direct"
-msgstr "Direkt"
+msgstr "Doğrudan"
 
 #: yourls-infos.php:520
 msgid "Direct traffic:"
-msgstr "Direkt trafik:"
+msgstr "Doğrudan gelen:"
 
 #: yourls-infos.php:520 yourls-infos.php:521
 #, php-format
 msgid "<strong>%s</strong> hit"
 msgid_plural "<strong>%s</strong> hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<strong>%s</strong> tıklanma"
+msgstr[1] "<strong>%s</strong> tıklanma"
 
 #: yourls-infos.php:521
 msgid "Referrer traffic:"
-msgstr ""
+msgstr "Ziyaretçi gönderenler"
 
 #: yourls-infos.php:530
 msgid "No referrer data."
-msgstr ""
+msgstr "Ziyaretçi gönderenlere dair bir veri yok."
 
 #: yourls-infos.php:541
 msgid "Short link"
@@ -253,6 +253,9 @@ msgid ""
 "Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
 "of <strong class=\"increment\">%3$s</strong> URLs"
 msgstr ""
+"Toplam <strong class=\"increment\">%3$s</strong> URL'nin <strong>%1$s</"
+"strong> ile <strong class=\"increment\">%2$s</strong> arasındakileri "
+"gösteriliyor"
 
 #: admin/index.php:274
 #, php-format
@@ -267,10 +270,12 @@ msgid ""
 "Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
 "%2$s</strong> clicks, and counting!"
 msgstr ""
+"Şu anki durum: <strong class=\"increment\">%1$s</strong> bağlantı, <strong>"
+"%2$s</strong> ve artmaya devam ediyor!"
 
 #: admin/index.php:337
 msgid "No URL"
-msgstr ""
+msgstr "URL Yok"
 
 #: admin/install.php:13 admin/install.php:18
 #, php-format
@@ -337,6 +342,8 @@ msgid ""
 "You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
 "strong> activated"
 msgstr ""
+"Şu anda yüklü <strong>%1$s</strong> bulunmaktadır. Eklentilerden <strong>"
+"%2$s</strong> tanesi aktif edilmiştir"
 
 #: admin/plugins.php:79
 msgid "Plugin Name"
@@ -356,7 +363,7 @@ msgstr "Yazar"
 
 #: admin/plugins.php:83
 msgid "Action"
-msgstr ""
+msgstr "İşlem"
 
 #: admin/plugins.php:118
 msgid "Deactivate"
@@ -369,11 +376,11 @@ msgstr "Etkinleştir"
 #: admin/plugins.php:133
 #, php-format
 msgid "plugin file location: %s"
-msgstr ""
+msgstr "eklenti dosya adresi: %s"
 
 #: admin/plugins.php:150
 msgid "Toggle active/inactive plugins"
-msgstr ""
+msgstr "Aktif/Pasif Eklentileri Listelere"
 
 #: admin/plugins.php:157
 msgid ""
@@ -381,6 +388,10 @@ msgid ""
 "YOURLS or access this page, simply rename or delete its directory, or rename "
 "the plugin file to something different than <code>plugin.php</code>."
 msgstr ""
+"Eklentileri aktifleştirirken herhangi bir hata ile karşılaşırsanız ve "
+"YOURLS'a veya bu sayfaya erişemezseniz, eklentinin klasörünün adını "
+"değiştirin veya silin\\ veya eklenti dosyasının adını <code>plugin.php</"
+"code>'den farklı olacak şekilde değiştirin."
 
 #: admin/plugins.php:159
 msgid "More plugins"
@@ -391,6 +402,8 @@ msgid ""
 "For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
 "\">Plugin list</a>."
 msgstr ""
+"Daha fazla eklenti için <a href=\"http://yourls.org/pluginlist\">Resmi "
+"Eklenti Listesi</a>'ni kontrol ediniz."
 
 #: admin/tools.php:6
 msgid "Cool YOURLS Tools"
@@ -705,19 +718,19 @@ msgstr ""
 
 #: includes/functions-html.php:175
 msgid "Enter the URL"
-msgstr ""
+msgstr "URL'yi Girin"
 
 #: includes/functions-html.php:176
 msgid "Optional "
-msgstr ""
+msgstr "İsteğe Bağlı "
 
 #: includes/functions-html.php:176
 msgid "Custom short URL"
-msgstr ""
+msgstr "Özel Kısaltılmış URL"
 
 #: includes/functions-html.php:178
 msgid "Shorten The URL"
-msgstr ""
+msgstr "URL'yi Kısalt"
 
 #: includes/functions-html.php:212 includes/functions-html.php:224
 #: includes/functions-html.php:629
@@ -876,7 +889,7 @@ msgstr "Kaynak URL"
 
 #: includes/functions-html.php:631
 msgid "Actions"
-msgstr ""
+msgstr "İşlemler"
 
 #: includes/functions-html.php:697
 msgid "Username"
@@ -905,11 +918,11 @@ msgstr "Yardım"
 
 #: includes/functions-html.php:734
 msgid "Go to the admin interface"
-msgstr ""
+msgstr "Yönetici Paneline Git"
 
 #: includes/functions-html.php:735
 msgid "Admin interface"
-msgstr ""
+msgstr "Yönetici Paneli"
 
 #: includes/functions-html.php:741
 msgid "Tools"
@@ -1003,37 +1016,37 @@ msgstr "Cumartesi"
 #. //translators: one-letter abbreviation of the weekday
 #: includes/functions-l10n.php:805
 msgid "S_Sunday_initial"
-msgstr ""
+msgstr "Pz_Pazar_initial"
 
 #. //translators: one-letter abbreviation of the weekday
 #: includes/functions-l10n.php:806
 msgid "M_Monday_initial"
-msgstr ""
+msgstr "Pt_Pazartesi_initial"
 
 #. //translators: one-letter abbreviation of the weekday
 #: includes/functions-l10n.php:807
 msgid "T_Tuesday_initial"
-msgstr ""
+msgstr "S_Salı_initial"
 
 #. //translators: one-letter abbreviation of the weekday
 #: includes/functions-l10n.php:808
 msgid "W_Wednesday_initial"
-msgstr ""
+msgstr "Ç_Çarşamba_initial"
 
 #. //translators: one-letter abbreviation of the weekday
 #: includes/functions-l10n.php:809
 msgid "T_Thursday_initial"
-msgstr ""
+msgstr "Pe_Perşembe_initial"
 
 #. //translators: one-letter abbreviation of the weekday
 #: includes/functions-l10n.php:810
 msgid "F_Friday_initial"
-msgstr ""
+msgstr "Cu_Cuma_initial"
 
 #. //translators: one-letter abbreviation of the weekday
 #: includes/functions-l10n.php:811
 msgid "S_Saturday_initial"
-msgstr ""
+msgstr "Ct_Cumartesi_initial"
 
 #. //translators: three-letter abbreviation of the weekday
 #: includes/functions-l10n.php:818
@@ -1133,62 +1146,62 @@ msgstr "Aralık"
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:842
 msgid "Jan_January_abbreviation"
-msgstr ""
+msgstr "Oca_Ocak_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:843
 msgid "Feb_February_abbreviation"
-msgstr ""
+msgstr "Şub_Şubat_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:844
 msgid "Mar_March_abbreviation"
-msgstr ""
+msgstr "Mar_Mart_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:845
 msgid "Apr_April_abbreviation"
-msgstr ""
+msgstr "Nis_Nisan_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:846
 msgid "May_May_abbreviation"
-msgstr ""
+msgstr "May_Mayıs_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:847
 msgid "Jun_June_abbreviation"
-msgstr ""
+msgstr "Haz_Haziran_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:848
 msgid "Jul_July_abbreviation"
-msgstr ""
+msgstr "Tem_Temmuz_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:849
 msgid "Aug_August_abbreviation"
-msgstr ""
+msgstr "Ağu_Ağustos_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:850
 msgid "Sep_September_abbreviation"
-msgstr ""
+msgstr "Eyl_Eylül_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:851
 msgid "Oct_October_abbreviation"
-msgstr ""
+msgstr "Eki_Ekim_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:852
 msgid "Nov_November_abbreviation"
-msgstr ""
+msgstr "Kas_Kasım_abbreviation"
 
 #. //translators: three-letter abbreviation of the month
 #: includes/functions-l10n.php:853
 msgid "Dec_December_abbreviation"
-msgstr ""
+msgstr "Ara_Aralık_abbreviation"
 
 #: includes/functions-l10n.php:860
 msgid "am"
@@ -1229,11 +1242,11 @@ msgstr[1] ""
 
 #: includes/functions-plugins.php:425
 msgid "Not a valid plugin file"
-msgstr ""
+msgstr "Geçerli bir eklenti dosyası değil"
 
 #: includes/functions-plugins.php:430
 msgid "Plugin already activated"
-msgstr ""
+msgstr "Eklenti zaten aktif"
 
 #: includes/functions-plugins.php:438
 #, php-format
@@ -1242,7 +1255,7 @@ msgstr ""
 
 #: includes/functions-plugins.php:461
 msgid "Plugin not active"
-msgstr ""
+msgstr "Eklenti aktif değil"
 
 #: includes/functions-plugins.php:541
 msgid ""
@@ -1256,11 +1269,11 @@ msgstr "Hatalı bağlantı"
 
 #: includes/functions.php:201
 msgid "Missing or malformed URL"
-msgstr ""
+msgstr "Eksik veya hatalı URL"
 
 #: includes/functions.php:215
 msgid "URL is a short URL"
-msgstr ""
+msgstr "Girilen URL halihazırda kısa bir URL"
 
 #: includes/functions.php:247
 #, php-format
@@ -1271,7 +1284,7 @@ msgstr ""
 #: includes/functions.php:253 includes/functions.php:275
 #, php-format
 msgid "%s added to database"
-msgstr ""
+msgstr "%s veritabanına eklendi"
 
 #: includes/functions.php:283
 msgid "Error saving url to database"
