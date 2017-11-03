@@ -1,8 +1,7 @@
 # yourls_TR
 YOURLS v1.7.2 - Turkish Translation Files
 
-Translated by Murat Eray KORKMAZ - [www.murateray.com](https://www.murateray.com)
-+ [MeraKlı Gezgin](https://www.merakligezgin.com)
+Translated by Murat Eray KORKMAZ - [MeraK](https://www.murateray.com) / [MeraKlı Gezgin](https://www.merakligezgin.com)
 
 
 # Nasıl Yüklenir?
